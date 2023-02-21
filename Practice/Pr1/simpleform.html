@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+      body {
+        font-family: Tahoma;
+      }
+
+      select{
+        width: 175px;
+      }
+
+      label{
+        display: block;
+      }
+
+      input.phoneNumber{
+        width: 50px;
+      }
+
+      p{
+        font-weight: bold;
+      }
+    </style>
+</head>
+<body>
+<form action="simpleform.html" method="get">
+  <h1>Order Form</h1>
+
+  <p>What would you like to buy?</p>
+  <select name="foodChoice" id="">
+    <option value="A">A</option>
+    <option value="B">B</option>
+    <option value="C">C</option>
+    <option value="D">D</option>
+  </select>
+
+  <p>How many would you like to order?</p>
+  <label for=""><input name="number" value="10" type="radio" checked>1 - $10</label>
+  <label for=""><input name="number" value="20" type="radio">2 - $20</label>
+  <label for=""><input name="number" value="25" type="radio">3 - $25</label>
+
+  <p>Name</p>
+  <input type="text" name="FirstName" placeholder="FirstName">
+  <input type="text" name="LastName" placeholder="LastName">
+
+  <p>Email</p>
+  <input type="email" name="email">
+
+  <p>Phone Number</p>
+  <input class="phoneNumber" type="number">
+  <span>-</span>
+  <input class="phoneNumber" type="number">
+  <span>-</span>
+  <input class="phoneNumber" type="number">
+  <hr>
+
+  <input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
