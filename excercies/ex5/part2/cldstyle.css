@@ -1,0 +1,59 @@
+table{
+    border-collapse: collapse;
+}
+
+h2{
+    color: blue;
+    margin-left: 200px;
+}
+
+td{
+    width: 75px;
+    text-align: center;
+    font-size: larger;
+}
+
+.add-border-day{
+    border-color: darkgrey;
+    border-width: 4px;
+    border-style: groove;
+}
+
+.add-border-weekday{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.weekday-name-vn{
+    color: white;
+    font-weight: bolder;
+    background-color: orange;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+td.remove-border{
+    border-color: white;
+    border-width: 1px;
+}
+
+.sun-name-vn{
+    background-color: red;
+}
+
+.sat-name-vn{
+    background-color: blue;
+}
+
+.sun-day-color{
+    color: red;
+}
+
+.sat-day-color{
+    color: blue;
+}
+
+.day-size{
+    font-size: xxx-large;
+}
