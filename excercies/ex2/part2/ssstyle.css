@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+form{
+    padding: 5px 5px;
+    width: 500px;
+    background-color: moccasin;
+}
+
+h2{
+    text-transform: uppercase;
+    color: blue;
+    background-color: aqua;
+}
+
+div.title{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p{
+    width: 100px;
+    color: darkblue;
+}
+
+div.btn{
+    margin-left: 100px;
+}
+
+input.btn{
+    padding: 5px 5px;
+}
