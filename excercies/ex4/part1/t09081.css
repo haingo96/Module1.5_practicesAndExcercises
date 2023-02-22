@@ -1,0 +1,14 @@
+table,tr,td,th{
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 1px;
+}
+
+tr,td,th{
+    width: 120px;
+    height: 30px;
+}
+
+th{
+    background-color: yellow;
+}
