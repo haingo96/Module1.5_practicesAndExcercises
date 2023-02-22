@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+.textbold{
+    font-weight: bold;
+}
+
+.textleft{
+    text-align: left;
+}
+
+.set50width{
+    width: 50%;
+}
+
+.set100width{
+    width: 100%;
+}
+
+.displayblock{
+    display: block;
+}
+
+.margin0{
+    margin: 0;
+}
+
+table,tr,td{
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+tr,td{
+    width: 10%;
+}
+
+.title{
+    width: 35%;
+}
+
+label{
+    margin: auto;
+}
+
+.btn{
+    margin-top: 10px;
+}
+
